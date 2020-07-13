@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- stop watch-->
+    <section>
+        <div class="heading">
+            <h2>Stop Watch</h2>
+        </div>
+
+
+        <div>
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+
+        <!-- user name -->
+        <form action="">
+            <input type="text" placeholder="Enter your name" id="useInput">
+
+        </form>
+
+        <!-- button -->
+        <div>
+            <button onclick="start()">Start</button>
+            <button onclick="stopall()" id="StopText">Stop</button>
+            <button onclick="stop()">Pause</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+
+        <div id="sum">
+
+        </div>
+    </section>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
